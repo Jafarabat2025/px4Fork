@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "PX4",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/jafarabat/bf/px4Fork/boards/px4/fmu-v5/src",
+                "/home/jafarabat/bf/px4Fork/platforms/nuttx/src/px4/stm/stm32f7/include",
+                "/home/jafarabat/bf/px4Fork/platforms/nuttx/NuttX/nuttx/include/"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "cppStandard": "c++14",
+            "cStandard": "c11",
+            "dotConfig": "/home/jafarabat/bf/px4Fork/build/px4_fmu-v5_default/NuttX/nuttx/.config",
+            "forcedInclude": [
+                 "/home/jafarabat/bf/px4Fork/build/px4_fmu-v5_default/px4_boardconfig.h",
+                 "/home/jafarabat/bf/px4Fork/platforms/common/include/px4_platform_common/defines.h"
+                 ]
+        }
+    ],
+    "version": 4
+}
